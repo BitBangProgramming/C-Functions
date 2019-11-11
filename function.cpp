@@ -7,6 +7,8 @@ int factorial(int num) {
     for(int i = num; i > 0; i--) {
         ret = ret * i;
     }
+    
+    return ret;
 }
 
 int main (int argc, char **argv) {
